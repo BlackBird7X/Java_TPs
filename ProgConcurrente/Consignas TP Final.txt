@@ -1,0 +1,27 @@
+PROBLEMA NÚMERO UNO
+Un puente que tiene una carretera con un único carril por el que los coches pueden circular en un sentido o en otro. La anchura del carril hace imposible que dos coches puedan pasar de manera simultánea por el puente. El protocolo utilizado para atravesar el puente es el siguiente:
+Si no hay ningún coche circulando por el puente, entonces el primer coche en llegar cruzará el puente.
+Si un coche está atravesando el puente de norte a sur, entonces los coches que estén en el extremo norte del puente tendrán prioridad sobre los que vayan a cruzarlo desde el extremo sur.
+Del mismo modo, si un coche se encuentra cruzando de sur a norte, entonces los coches del extremo sur tendrán prioridad sobre los del norte.
+Usar una función aleatoria que genere autos que van en ambos sentidos e imprimir por pantalla como van pasando los autos por el puente.
+
+PROBLEMA NÚMERO DOS
+El problema original de la barbería fue propuesto por Dijkstra, aunque comúnmente se suele conocer como el problema del barbero dormilón. El enunciado de este problema clásico de sincronización se expone a continuación.
+La barbería tiene una sala de espera con n sillas y la habitación del barbero tiene una única silla en la que un cliente se sienta para que el barbero trabaje. Si no hay clientes, entonces el barbero se duerme.
+Si un cliente entra en la barbería y todas las sillas están ocupadas, es decir, tanto la del barbero como las de la sala de espera, entonces el cliente se marcha. Si el barbero está ocupado, pero hay sillas disponibles, entonces el cliente se sienta en una de ellas. Si el barbero está durmiendo, entonces el cliente lo despierta.
+Simular el funcionamiento con una función aleatoria.
+
+PROBLEMA NÚMERO TRES
+En una tribu de caníbales todos comen de la misma olla, la cual puede albergar N raciones de comida. Cuando un caníbal quiere comer, simplemente se sirve de la olla común, a no ser que esté vacía. En ese caso, el caníbal despierta al cocinero de la tribu y espera hasta que éste haya rellenado la olla.
+En este problema, los eventos de sincronización son dos:
+- Si un caníbal que quiere comer se encuentra con la olla vacía, entonces se lo notifica al cocinero para que éste cocine.
+- Cuando el cocinero termina de cocinar, entonces se lo notifica al caníbal que lo despertó previamente.
+Simular el funcionamiento con una función aleatoria.
+
+PROBLEMA NÚMERO CUATRO
+Santa Claus pasa su tiempo de descanso, durmiendo, en su casa del Polo Norte. Para poder despertarlo, se ha de cumplir una de las dos condiciones siguientes:
+1. Que todos los renos de los que dispone, nueve en total, hayan vuelto de vacaciones.
+2. Que algunos de sus duendes necesiten su ayuda para fabricar un juguete.
+Para permitir que Santa Claus pueda descansar, los duendes han acordado despertarle si tres de ellos tienen problemas a la hora de fabricar un juguete. En el caso de que un grupo de tres duendes estén siendo ayudados por Santa, el resto de los duendes con problemas tendrán que esperar a que Santa termine de ayudar al primer grupo.
+En caso de que haya duendes esperando y todos los renos hayan vuelto de vacaciones, entonces Santa Claus decidirá preparar el trineo y repartir los regalos, ya que su entrega es más importante que la fabricación de otros juguetes que podría esperar al año siguiente. El último reno en llegar ha de despertar a Santa mientras el resto de los renos esperan antes de ser enganchados al trineo.
+Simular el funcionamiento con una función aleatoria.
